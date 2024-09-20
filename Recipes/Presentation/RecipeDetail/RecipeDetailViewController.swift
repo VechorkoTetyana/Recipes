@@ -36,7 +36,8 @@ class RecipeDetailViewController: UIViewController {
     private func fetch() {
         Task { [weak self] in
             await self?.viewModel.loadRecipeDetail()
-                self?.tableView.reloadData()
+            self?.tableView.reloadData()
+            self?.updateBookmark()
         }
     }
     
@@ -57,10 +58,12 @@ class RecipeDetailViewController: UIViewController {
     }
     
     @objc private func toggleBookmark() {
-        // viewModel.toggleBookmark()
+        viewModel.toggleBookmark()
+        updateBookmark()
     }
     
-    private func updateBookmark(isBookmarked: Bool) {
+    private func updateBookmark() {
+        let isBookmarked = viewModel.isRecipeBookmarked
         let imageName = isBookmarked ? "bookmark.fill" : "bookmark"
         navigationItem.rightBarButtonItem?.image = UIImage(systemName: imageName)
     }

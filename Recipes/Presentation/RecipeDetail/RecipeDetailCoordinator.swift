@@ -13,7 +13,7 @@ class RecipeDetailCoordinator: Coordinator {
     }
    
     func start() {
-        let viewModel = RecipeDetailViewModel(id: id, repository: container.recipeRepository)
+        let viewModel = RecipeDetailViewModel(id: id, container: container)
         let viewController = RecipeDetailViewController(viewModel: viewModel)
       
         navigationController.pushViewController(viewController, animated: true)

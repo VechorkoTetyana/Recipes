@@ -23,6 +23,12 @@ class RecipeRepositoryMock: RecipeRepositoryProtocol {
        return fetchRecipesResult
     }
     
+    func fetchRecipe(id: String) async throws -> Recipes.RecipeDetail {
+        RecipeDetail(id: "", name: "", imageUrl: "", description: "", ingredients: [])
+    }
+    
+    var searchWithQueryResults: [Recipe] = []
+    
     func search(with query: String) async throws -> [Recipes.Recipe] {
         []
     }
