@@ -1,0 +1,43 @@
+{
+  "id": "3",
+  "name": "Egg and Vegetable Muffins",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/690%2Fegg-and-vegetable-muffins.jpg?alt=media&token=e8119fe0-aa46-4b21-b69d-7c53f4f9f87e",
+  "description": "Delicious and nutritious egg muffins packed with colorful vegetables, perfect for a quick breakfast or snack.",
+  "ingredients": [
+    {
+      "name": "Eggs",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Feggs.jpg?alt=media&token=ef014997-c507-4032-8585-37fd6ef1cf49",
+      "amount": "6 large"
+    },
+    {
+      "name": "Milk",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fmilk.jpg?alt=media&token=703443f3-f006-49ae-9391-d970bd74eab8",
+      "amount": "1/4 cup"
+    },
+    {
+      "name": "Bell Pepper",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fbell-pepper.jpg?alt=media&token=a79f4f83-8c65-4c43-8b1a-d0eae6279020",
+      "amount": "1/2 cup, diced"
+    },
+    {
+      "name": "Spinach",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fspinach.jpg?alt=media&token=cbcbf86a-9ec3-463c-b3fe-068ef9ec00db",
+      "amount": "1 cup, chopped"
+    },
+    {
+      "name": "Cheddar Cheese",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fcheddar-cheese.jpg?alt=media&token=1bf9be0e-1dbd-4776-bb8d-6fe49e8f6758",
+      "amount": "1/2 cup, shredded"
+    },
+    {
+      "name": "Salt",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fsalt.jpg?alt=media&token=a818b45f-6bc3-479e-a65a-b7657f0dffef",
+      "amount": "1/4 tsp"
+    },
+    {
+      "name": "Black Pepper",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fblack-pepper.jpg?alt=media&token=bf5c56bf-a5c2-42e1-854c-582e1802e77f",
+      "amount": "1/8 tsp"
+    }
+  ]
+}

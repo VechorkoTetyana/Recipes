@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "C01CDEEE-79AA-42B7-8BD2-2234D33373D1",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Recipes.xcodeproj",
+        "identifier" : "B80421B42C904CAC009634F7",
+        "name" : "RecipesTests"
+      }
+    }
+  ],
+  "version" : 1
+}

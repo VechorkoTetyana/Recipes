@@ -1,0 +1,43 @@
+{
+  "id": "4",
+  "name": "French Toast",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/690%2Ffrench-toast.jpg?alt=media&token=d8453354-622b-4503-94de-56536d911b4e",
+  "description": "Classic French toast with a hint of vanilla and cinnamon, perfect for a cozy weekend breakfast.",
+  "ingredients": [
+    {
+      "name": "Bread",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fbread.jpg?alt=media&token=3ba31250-b5b7-4eb5-ad4a-28902cad1bf6",
+      "amount": "6 slices"
+    },
+    {
+      "name": "Eggs",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Feggs.jpg?alt=media&token=ef014997-c507-4032-8585-37fd6ef1cf49",
+      "amount": "2 large"
+    },
+    {
+      "name": "Milk",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fmilk.jpg?alt=media&token=703443f3-f006-49ae-9391-d970bd74eab8",
+      "amount": "2/3 cup"
+    },
+    {
+      "name": "Vanilla Extract",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fvanilla-extract.jpg?alt=media&token=600d1934-4b68-4556-97c7-ebcc4d74ca8f",
+      "amount": "1 tsp"
+    },
+    {
+      "name": "Cinnamon",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fcinnamon.jpg?alt=media&token=e0e545bc-35bb-4dee-9f93-962650923e87",
+      "amount": "1/4 tsp"
+    },
+    {
+      "name": "Butter",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fbutter.jpg?alt=media&token=b7e309f5-56e3-4f66-82d5-02a0f52339c6",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Maple Syrup",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fmarble-surup.jpg?alt=media&token=47285dbf-e83f-45b1-aa03-d747f8c3a956",
+      "amount": "For serving"
+    }
+  ]
+}
