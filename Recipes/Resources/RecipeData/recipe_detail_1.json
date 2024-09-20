@@ -1,0 +1,33 @@
+{
+  "id": "1",
+  "name": "Fruit Smoothie",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/690%2Ffruit-smoothie.jpg?alt=media&token=8f568595-ca9e-4c62-8eb4-b4bc27f666e1",
+  "description": "A refreshing and nutritious fruit smoothie packed with vitamins and flavor.",
+  "ingredients": [
+    {
+      "name": "Banana",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fbanana.jpg?alt=media&token=827fd0f5-8e06-4e30-b2c4-e4465f63d42f",
+      "amount": "1 medium"
+    },
+    {
+      "name": "Strawberries",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fstrawberry.jpg?alt=media&token=0a31255c-40a5-4fbd-915e-d8d42bdf4f37",
+      "amount": "1 cup"
+    },
+    {
+      "name": "Greek Yogurt",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fyogurt.jpg?alt=media&token=8396b044-ab9f-437c-af1c-f80912467b9a",
+      "amount": "1/2 cup"
+    },
+    {
+      "name": "Honey",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fhoney.jpg?alt=media&token=c29d0bf7-1700-4aec-a994-dbec1c66b680",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Ice",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fice.jpg?alt=media&token=286e875c-ac26-4e57-a436-640fb43e237d",
+      "amount": "1 cup"
+    }
+  ]
+}

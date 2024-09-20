@@ -1,0 +1,33 @@
+{
+  "id": "2",
+  "name": "Breakfast Burrito",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/690%2Fbreakfast-burrito.jpg?alt=media&token=0ce2f0a9-4245-4e26-aa17-05f6fee3079d",
+  "description": "A hearty breakfast burrito filled with eggs, cheese, and vegetables.",
+  "ingredients": [
+    {
+      "name": "Large Tortilla",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Ftortilla.jpg?alt=media&token=41a6c4cd-402a-49f6-8dd1-6c74cb34d1ff",
+      "amount": "1 piece"
+    },
+    {
+      "name": "Eggs",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Feggs.jpg?alt=media&token=ef014997-c507-4032-8585-37fd6ef1cf49",
+      "amount": "2 large"
+    },
+    {
+      "name": "Cheddar Cheese",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fcheddar-cheese.jpg?alt=media&token=1bf9be0e-1dbd-4776-bb8d-6fe49e8f6758",
+      "amount": "1/4 cup, shredded"
+    },
+    {
+      "name": "Bell Pepper",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fbell-pepper.jpg?alt=media&token=a79f4f83-8c65-4c43-8b1a-d0eae6279020",
+      "amount": "1/4 cup, diced"
+    },
+    {
+      "name": "Onion",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/120%2Fonion.jpg?alt=media&token=f408cdc6-9a15-4f75-878e-88937a2730c7",
+      "amount": "2 tbsp, diced"
+    }
+  ]
+}

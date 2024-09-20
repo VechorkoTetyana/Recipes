@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Fruit Smoothie",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/240%2Ffruit-smoothie.jpg?alt=media&token=c8f655ac-231b-4ed3-abce-01eb30620f78",
+    "duration": 9
+  },
+  {
+    "id": "2",
+    "name": "Breakfast Burrito",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/240%2Fbreakfast-burrito.jpg?alt=media&token=d531b5a9-c6e5-4bbb-bd51-64056a4b7bba",
+    "duration": 10
+  },
+  {
+    "id": "3",
+    "name": "Egg and Vegetable Muffins",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/240%2Fegg-and-vegetable-muffins.jpg?alt=media&token=a82192d5-1f54-4d65-a4ad-90e3952d231b",
+    "duration": 18
+  },
+  {
+    "id": "4",
+    "name": "French Toast",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/recipes-ecbaa.appspot.com/o/240%2Ffrench-toast.jpg?alt=media&token=56902376-b542-4833-a53e-dc602501e08d",
+    "duration": 10
+  }
+]
