@@ -4,11 +4,15 @@ import XCTest
 @testable import Recipes
 
 class LocalRecipeDataSourceMock: LocalRecipeDataSourceProtocol {
-    
+   
     var fetchRecipesResults: [RecipeDTO] = []
     
     func fetchRecipes() throws -> [Recipes.RecipeDTO] {
         fetchRecipesResults
+    }
+    
+    func fetchRecipe(with id: String) throws -> Recipes.RecipeDetailDTO {
+        RecipeDetailDTO(id: "", name: "", imageUrl: "", description: "", ingredients: [])
     }
 }
 

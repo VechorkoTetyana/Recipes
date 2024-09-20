@@ -9,4 +9,8 @@ class DependencyContainer {
     lazy var recipeRepository: RecipeRepositoryProtocol = {
         return RecipeRepository(dataSource: recipeDataSource)
     }()
+    
+    lazy var bookmarkRepository: BookmarkRepositoryProtocol = {
+        BookmarkRepository(userDefaults: .standard)
+    }()
 }

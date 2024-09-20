@@ -10,7 +10,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    private let container = DependencyContainer()
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -26,17 +26,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             print(recipes)
         } catch {}
   */
-        let container = DependencyContainer()
-        let navigationController = UINavigationController()
-        let homeCoordinator = HomeCoordinator(
-            container: container,
-            navigationController: navigationController
-        )
-        
-        homeCoordinator.start()
-        
-        window.rootViewController = navigationController
-        window.makeKeyAndVisible()
+       
+        let coordinator = AppCoordinator(window: window, container: container)
+        coordinator.start()
         
         self.window = window
     }

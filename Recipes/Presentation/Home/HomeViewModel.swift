@@ -24,16 +24,13 @@ class HomeViewModel {
     
     func searchRecipes(query: String) async {
         do {
-            print("searchRec test1")
             guard !query.isEmpty else {
                 await loadRecipes()
                 return
             }
-            print("searchRec test2 \(query)")
 
             let recipes = try await repository.search(with: query)
             self.recipes = recipes
-            print("searchRec test3 \(recipes.count)")
 
         } catch {
             showError?("error.serch-recipes".localized + " " + error.localizedDescription)
