@@ -1,6 +1,7 @@
 import Foundation
 
 protocol BookmarkRepositoryProtocol {
+    func fetchIds() -> [String] 
     func bookmarkRecipe(id: String)
     func unbookmarkRecipe(id: String)
     func isRecipeBookmarked(id: String) -> Bool
@@ -15,7 +16,7 @@ class BookmarkRepository: BookmarkRepositoryProtocol {
         self.userDefaults = userDefaults
     }
     
-    private func fetchIds() -> [String] {
+    func fetchIds() -> [String] {
         userDefaults.array(forKey: key) as? [String] ?? []
     }
     

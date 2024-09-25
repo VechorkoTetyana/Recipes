@@ -30,6 +30,7 @@ class RecipeDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        bindShowError()
         fetch()
     }
     
@@ -60,6 +61,12 @@ class RecipeDetailViewController: UIViewController {
     @objc private func toggleBookmark() {
         viewModel.toggleBookmark()
         updateBookmark()
+    }
+    
+    private func bindShowError() {
+        viewModel.showError = { [weak self] text in
+            self?.showErrorAllert(message: text)
+        }
     }
     
     private func updateBookmark() {
