@@ -15,7 +15,7 @@ class AppCoordinator {
         
         tabBarController.viewControllers = [
             setupHomeVC(),
-            setupDiscovery(),
+            setupDiscoveryVC(),
             setupBookmarksVC(),
             setupProfileVC()
         ]
@@ -53,7 +53,7 @@ class AppCoordinator {
         return navigationController
     }
     
-    private func setupDiscovery() -> UIViewController {
+    private func setupDiscoveryVC() -> UIViewController {
         let discoveryVC = UIViewController()
         discoveryVC.view.backgroundColor = .background
         discoveryVC.tabBarItem = UITabBarItem(
@@ -65,14 +65,30 @@ class AppCoordinator {
     }
     
     private func setupBookmarksVC() -> UIViewController {
-        let bookmarksVC = UIViewController()
+        
+        let navigationController = UINavigationController()
+        navigationController.tabBarItem = UITabBarItem(
+            title: "tabBar.bookmarks".localized,
+            image: UIImage(named: "bookmark"),
+            tag: 1
+        )
+        
+        let coordinator = BookmarksViewCoordinator(
+            container: container,
+            navigationController: navigationController
+        )
+        
+        coordinator.start()
+        
+/*        let bookmarksVC = UIViewController()
         bookmarksVC.view.backgroundColor = .background
         bookmarksVC.tabBarItem = UITabBarItem(
             title: "tabBar.bookmarks".localized,
             image: UIImage(named: "bookmark"),
             tag: 1
-        )
-        return bookmarksVC
+        )*/
+        
+        return navigationController
     }
     
     private func setupProfileVC() -> UIViewController {

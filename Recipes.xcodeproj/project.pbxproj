@@ -44,6 +44,15 @@
 		B87BD8202C9D7C2600B00377 /* BookmarkRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD81F2C9D7C2600B00377 /* BookmarkRepositoryTests.swift */; };
 		B87BD8222C9D889B00B00377 /* BookmarkRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD8212C9D889B00B00377 /* BookmarkRepository.swift */; };
 		B87BD8252C9D910300B00377 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD8242C9D910300B00377 /* AppCoordinator.swift */; };
+		B87BD8282CA1658500B00377 /* BookmarksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD8272CA1658500B00377 /* BookmarksViewModel.swift */; };
+		B87BD82A2CA1665400B00377 /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD8292CA1665400B00377 /* BookmarksViewController.swift */; };
+		B87BD82C2CA1782600B00377 /* BookmarksViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD82B2CA1782600B00377 /* BookmarksViewCoordinator.swift */; };
+		B87BD82F2CA17D2200B00377 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD82E2CA17D2200B00377 /* NetworkConfig.swift */; };
+		B87BD8312CA17E1300B00377 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD8302CA17E1300B00377 /* Endpoint.swift */; };
+		B87BD8332CA17F0E00B00377 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD8322CA17F0E00B00377 /* NetworkService.swift */; };
+		B87BD8362CA1831300B00377 /* RecipesNetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD8352CA1831300B00377 /* RecipesNetworkConfig.swift */; };
+		B87BD8382CA1844500B00377 /* Endpoint+Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD8372CA1844500B00377 /* Endpoint+Recipes.swift */; };
+		B87BD83A2CA185A900B00377 /* RecipeNetworkRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD8392CA185A900B00377 /* RecipeNetworkRepository.swift */; };
 		B8A6B0312C9AEDA900D9BF00 /* RecipeHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A6B0302C9AEDA900D9BF00 /* RecipeHeaderCell.swift */; };
 		B8A6B0332C9C2E8600D9BF00 /* IngredientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A6B0322C9C2E8600D9BF00 /* IngredientCell.swift */; };
 		B8A6B0352C9C3B9F00D9BF00 /* RecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A6B0342C9C3B9F00D9BF00 /* RecipeDetailViewModel.swift */; };
@@ -99,6 +108,15 @@
 		B87BD81F2C9D7C2600B00377 /* BookmarkRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkRepositoryTests.swift; sourceTree = "<group>"; };
 		B87BD8212C9D889B00B00377 /* BookmarkRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkRepository.swift; sourceTree = "<group>"; };
 		B87BD8242C9D910300B00377 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		B87BD8272CA1658500B00377 /* BookmarksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewModel.swift; sourceTree = "<group>"; };
+		B87BD8292CA1665400B00377 /* BookmarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
+		B87BD82B2CA1782600B00377 /* BookmarksViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewCoordinator.swift; sourceTree = "<group>"; };
+		B87BD82E2CA17D2200B00377 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		B87BD8302CA17E1300B00377 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		B87BD8322CA17F0E00B00377 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B87BD8352CA1831300B00377 /* RecipesNetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesNetworkConfig.swift; sourceTree = "<group>"; };
+		B87BD8372CA1844500B00377 /* Endpoint+Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+Recipes.swift"; sourceTree = "<group>"; };
+		B87BD8392CA185A900B00377 /* RecipeNetworkRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeNetworkRepository.swift; sourceTree = "<group>"; };
 		B8A6B0302C9AEDA900D9BF00 /* RecipeHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHeaderCell.swift; sourceTree = "<group>"; };
 		B8A6B0322C9C2E8600D9BF00 /* IngredientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCell.swift; sourceTree = "<group>"; };
 		B8A6B0342C9C3B9F00D9BF00 /* RecipeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewModel.swift; sourceTree = "<group>"; };
@@ -173,6 +191,7 @@
 		B80421D22C904D19009634F7 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				B87BD8342CA182E300B00377 /* Network */,
 				B80421E32C905475009634F7 /* DataSources */,
 				B80421E22C905461009634F7 /* Repository */,
 				B80421E12C905453009634F7 /* DTO */,
@@ -183,6 +202,7 @@
 		B80421D32C904D2E009634F7 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				B87BD8262CA1655800B00377 /* Bookmarks */,
 				B80422102C983A0C009634F7 /* RecipeDetail */,
 				B80421EF2C905F97009634F7 /* Home */,
 			);
@@ -234,6 +254,7 @@
 			children = (
 				B80421FF2C919883009634F7 /* RecipeRepository.swift */,
 				B87BD8212C9D889B00B00377 /* BookmarkRepository.swift */,
+				B87BD8392CA185A900B00377 /* RecipeNetworkRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -250,6 +271,7 @@
 		B80421EA2C905AA2009634F7 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				B87BD82D2CA17CF900B00377 /* Networking */,
 				B80421EB2C905AE6009634F7 /* String+Localized.swift */,
 				B80421F62C906047009634F7 /* Coordinator.swift */,
 				B80421F82C90613E009634F7 /* DependencyContainer.swift */,
@@ -297,6 +319,35 @@
 				B87BD8242C9D910300B00377 /* AppCoordinator.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		B87BD8262CA1655800B00377 /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				B87BD8272CA1658500B00377 /* BookmarksViewModel.swift */,
+				B87BD8292CA1665400B00377 /* BookmarksViewController.swift */,
+				B87BD82B2CA1782600B00377 /* BookmarksViewCoordinator.swift */,
+			);
+			path = Bookmarks;
+			sourceTree = "<group>";
+		};
+		B87BD82D2CA17CF900B00377 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B87BD82E2CA17D2200B00377 /* NetworkConfig.swift */,
+				B87BD8302CA17E1300B00377 /* Endpoint.swift */,
+				B87BD8322CA17F0E00B00377 /* NetworkService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B87BD8342CA182E300B00377 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B87BD8352CA1831300B00377 /* RecipesNetworkConfig.swift */,
+				B87BD8372CA1844500B00377 /* Endpoint+Recipes.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		B8A6B02F2C9AED9500D9BF00 /* TableView */ = {
@@ -424,14 +475,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B87BD82A2CA1665400B00377 /* BookmarksViewController.swift in Sources */,
 				B8A6B0352C9C3B9F00D9BF00 /* RecipeDetailViewModel.swift in Sources */,
 				B80421EC2C905AE6009634F7 /* String+Localized.swift in Sources */,
 				B87BD8252C9D910300B00377 /* AppCoordinator.swift in Sources */,
 				B8A6B0312C9AEDA900D9BF00 /* RecipeHeaderCell.swift in Sources */,
 				B80421F32C905FFB009634F7 /* HomeViewModel.swift in Sources */,
 				B80421A72C904CAB009634F7 /* ViewController.swift in Sources */,
+				B87BD8312CA17E1300B00377 /* Endpoint.swift in Sources */,
 				B80422022C92FFB7009634F7 /* RecipeCell.swift in Sources */,
 				B80421E52C90549C009634F7 /* RecipeDTO.swift in Sources */,
+				B87BD8332CA17F0E00B00377 /* NetworkService.swift in Sources */,
+				B87BD8362CA1831300B00377 /* RecipesNetworkConfig.swift in Sources */,
 				B804221C2C9AE082009634F7 /* RecipeDetail.swift in Sources */,
 				B8A6B0332C9C2E8600D9BF00 /* IngredientCell.swift in Sources */,
 				B80422002C919883009634F7 /* RecipeRepository.swift in Sources */,
@@ -442,14 +497,19 @@
 				B80421F72C906047009634F7 /* Coordinator.swift in Sources */,
 				B80421E72C905584009634F7 /* LocalRecipeDataSource.swift in Sources */,
 				B80421F52C90601F009634F7 /* HomeCoordinator.swift in Sources */,
+				B87BD8382CA1844500B00377 /* Endpoint+Recipes.swift in Sources */,
 				B804221A2C9ADC79009634F7 /* IngredientDTO.swift in Sources */,
 				B80422182C9ADB57009634F7 /* RecipeDetailDTO.swift in Sources */,
+				B87BD8282CA1658500B00377 /* BookmarksViewModel.swift in Sources */,
 				B80422162C984B39009634F7 /* RecipeDetailCoordinator.swift in Sources */,
 				B80421EE2C905B24009634F7 /* LocalRecipeDataSourceError.swift in Sources */,
 				B80421FC2C90621A009634F7 /* Recipe.swift in Sources */,
 				B80421F92C90613E009634F7 /* DependencyContainer.swift in Sources */,
+				B87BD83A2CA185A900B00377 /* RecipeNetworkRepository.swift in Sources */,
+				B87BD82F2CA17D2200B00377 /* NetworkConfig.swift in Sources */,
 				B87BD8222C9D889B00B00377 /* BookmarkRepository.swift in Sources */,
 				B80421A52C904CAB009634F7 /* SceneDelegate.swift in Sources */,
+				B87BD82C2CA1782600B00377 /* BookmarksViewCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
